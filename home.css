@@ -1,0 +1,344 @@
+body {
+    background-color: black;
+}
+.slide {
+    height: 100vh;
+    width: 100%;
+}
+.slide-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(30, 45px);
+    grid-template-rows: repeat(6, 45px);
+    gap: 1px;
+}
+.grid-container > div {
+    font-weight: bold;
+    color: none;
+    background-color: none;
+}
+.grid-container > div:nth-child(3) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(4) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(5) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(6) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(7) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(35) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(65) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(95) {
+    background-color: rgb(0, 255, 0);
+}
+.grid-container > div:nth-child(125) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(155) {
+    background-color: pink;
+}
+
+
+.grid-container > div:nth-child(9) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(39) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(69) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(99) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(129) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(159) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(10) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(11) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(12) {
+    background-color: rgb(0, 255, 0);
+}
+.grid-container > div:nth-child(42) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(72) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(102) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(132) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(162) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(100) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(101) {
+    background-color: pink;
+}
+
+
+.grid-container > div:nth-child(14) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(44) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(74) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(104) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(134) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(164) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(15) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(16) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(47) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(77) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(105) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(106) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(137) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(167) {
+    background-color: rgb(0, 255, 0);
+}
+
+
+.grid-container > div:nth-child(19) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(49) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(79) {
+    background-color: rgb(0, 255, 0);
+}
+.grid-container > div:nth-child(109) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(139) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(169) {
+    background-color: pink;
+}
+
+
+.grid-container > div:nth-child(21) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(51) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(81) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(111) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(141) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(171) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(52) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(83) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(114) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(55) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(85) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(115) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(145) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(175) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(25) {
+    background-color: rgb(0, 255, 0);
+}
+
+
+.grid-container > div:nth-child(27) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(57) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(87) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(117) {
+    background-color: pink;
+}
+.grid-container > div:nth-child(147) {
+    background-color: rgb(0, 255, 0);
+}
+.grid-container > div:nth-child(177) {
+    background-color: pink;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    transition: transform 1s ease;
+    transform-style: preserve-3d; /* Allows children to be positioned in 3D space */
+}
+.card:hover > .card-inner {
+    transform: rotateY(180deg); /* Rotate 180 degrees along the Y-axis */
+}
+.card-front {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+/* Back Card: Rotated so that it will appear correctly when flipped */
+.card-back {
+    position: absolute;
+    top: 0;
+    right: 0px;        
+    width: 200px;
+    height: auto;
+    text-align: center;
+
+    background-color: white;
+    border: none;
+
+    backface-visibility: hidden;
+    transform: rotateY(-180deg); /* Rotated since it is in the back */
+    transition: all 0.2s ease;
+}
+a{
+    background-color: rgb(0, 255, 0);
+    text-decoration: none;
+    color: white;
+}
+.info {
+    color: white;
+    position: fixed;
+    top: 10px;
+    text-align: center;
+    font-size: 10px;
+    font-family: monospace;
+    padding: 20px;
+}
+.scroll {
+    color: white;
+    position: fixed;
+    bottom: 10px;
+    z-index: 1;
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace;
+    padding: 20px;
+    opacity: 1;
+    animation: fadeOut 2s linear forwards;
+    animation-timeline: scroll(); /* works only in supported browsers */
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes colorChange {
+    0% { background-color: black; }
+    100% { background-color: pink;}
+  }
+
+.slide-b {
+    position: relative;
+    color: black;
+    animation:  colorChange 2s linear forwards;
+    animation-timeline: scroll(); /* works only in supported browsers */
+}
+.slide-b p{
+    margin: 20px;
+    padding: 100px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link a{
+    color: black;
+    background-color: rgb(0, 255, 0);
+    text-decoration: underline;
+    padding: 5px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.resume {
+    position: absolute;
+    bottom: 50px;
+    left: 120px;
+}
+.linkedin {
+    position: absolute;
+    bottom: 50px;
+    left: 300px;
+}
+.email {
+    position: absolute;
+    bottom: 50px;
+    left: 480px;
+}
+.slide-b span{
+    padding-left: 120px;
+    line-height: 50px;
+}
