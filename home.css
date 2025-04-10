@@ -267,7 +267,7 @@ body {
 
     backface-visibility: hidden;
     transform: rotateY(-180deg); /* Rotated since it is in the back */
-    transition: all 0.2s ease;
+    transition: all 0.1s ease;
 }
 a{
     background-color: rgb(0, 255, 0);
