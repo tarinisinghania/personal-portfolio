@@ -1,5 +1,7 @@
 body {
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 .slide {
     height: 100vh;
@@ -9,6 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: black;
 }
 .grid-container {
     display: grid;
@@ -311,7 +314,7 @@ a{
 }
 .slide-b p{
     margin: 20px;
-    padding: 100px;
+    padding: 100px 100px 0px 100px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
