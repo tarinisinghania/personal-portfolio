@@ -73,7 +73,7 @@ body {
     background-color: white;
 }
 .slidebar {
-    width: 40px;
+    width: 0px;
     height: auto;
     background-color: rgb(0, 0, 0);
     position: fixed;
@@ -83,7 +83,12 @@ body {
     transition: width 0.3s ease;
 }
 
-.slidebar:hover {
+/* .slidebar:hover {
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+} */
+
+.active {
     width: 350px;
     background-color: rgb(255, 255, 255);
 }
@@ -180,13 +185,14 @@ body {
 .item1 img{
     width: 70%;
     height: auto; /* Maintain aspect ratio */
-    margin: 100px;
+    margin-top: 50px;
     padding: 0;
 }
 .item4 video {
     width: 70%;
     height: auto; /* Maintain aspect ratio */
-    margin: 100px;
+    margin: 50px;
+    margin-bottom: 100px;
     padding: 0;
 }
 
@@ -221,13 +227,17 @@ body {
 .item5 p {
     color: black;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 1.2rem;
+    line-height: 1.3;
     padding: 0;
+    margin: 0;
 }
 .item5 a{
-    text-decoration: underline;
+    text-decoration: underline yellow;
     color: black;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
 }
 .item5 a:hover{
     color: yellow;
@@ -236,8 +246,8 @@ body {
     display: block;
     width: 15px;
     position: fixed;
-    top: 20px;
-    left: 3em;
+    top: 3em;
+    left: 1.5em;
     z-index: 0;
 }
 
