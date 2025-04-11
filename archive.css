@@ -2,7 +2,7 @@ body {
     background-color: rgb(255, 255, 255);
 }
 .slidebar {
-    width: 40px;
+    width: 0px;
     height: auto;
     background-color: black;
     position: fixed;
@@ -12,7 +12,7 @@ body {
     transition: width 0.3s ease;
 }
 
-.slidebar:hover {
+.active {
     width: 350px;
     background-color: rgb(255, 255, 255);
 }
@@ -99,8 +99,8 @@ body {
     display: block;
     width: 15px;
     position: fixed;
-    top: 20px;
-    left: 3em;
+    top: 3em;
+    left: 1.5em;
     z-index: 0;
 }
 
@@ -154,4 +154,3 @@ body {
     width: 90%;
     height: auto;
 }
-
