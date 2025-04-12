@@ -161,17 +161,22 @@ body {
 }
 
 .arrow > div {
-    background-color: black;
-    height: 5px; /* Each line is 10px high with a 16px margin above and below */
+    background-color: rgb(0, 255, 0);
+    width: 30px;
+    height: 30px;
     margin: 3px 0;
-    border-radius: 5px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding-top: 8px;
 }
 
 
-.arrow > div:nth-child(1) { 
+/* .arrow > div:nth-child(1) { 
     transform: rotate(45deg); 
 }
 
 .arrow > div:nth-child(2) {
-    transform: rotate(-45deg); /* Move up and rotate anticlockwise */
-}
+    transform: rotate(-45deg); 
+} */
