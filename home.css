@@ -467,8 +467,8 @@ a{
 @media (max-width: 450px) {
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(30, 15px);
-        grid-template-rows: repeat(6, 15px);
+        grid-template-columns: repeat(30, 10px);
+        grid-template-rows: repeat(6, 10px);
         gap: 1px;
     }
 }
