@@ -207,17 +207,18 @@ body {
     .item4 img {
         width: 70%;
     }
+    .item2 {
+        text-align: left;
+        margin-left: 10px;
+    }
     .item3 {
-        margin: 20px;
-        text-align: center;
+        margin-left: 10px;
     }
     .item3 img{
         width: 60%;
     }
     .item2 img {
         width: 60%;
-        height: auto; /* Maintain aspect ratio */
-        margin-top: 1em;
     }
     .item5 {
         grid-column: span 1;
