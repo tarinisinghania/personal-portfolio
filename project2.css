@@ -272,7 +272,7 @@ body {
         justify-content: center;
     }
     .item1 img {
-        width: 70%;
+        width: 75%;
         text-align: center;
     }
     .grid-container {
@@ -283,14 +283,14 @@ body {
         margin: 10px;
     }
     .item4 img {
-        width: 70%;
+        width: 75%;
     }
     .item2 {
         text-align: left;
-        margin-left: 50px;
+        margin-left: 40px;
     }
     .item3 {
-        margin-left: 50px;
+        margin-left: 40px;
     }
     .item3 img{
         width: 60%;
@@ -304,7 +304,7 @@ body {
         text-align: left;
         width: 300px;
         height: auto;
-        margin: 50px;
+        margin: 40px;
     }
     .item5 p {
         color: black;
