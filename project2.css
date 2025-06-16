@@ -188,7 +188,7 @@ body {
     
 }
 @media (max-width: 450px) {
-    .active {
+.active {
     width: 250px;
     background-color: rgb(255, 255, 255);
 }
@@ -302,8 +302,8 @@ body {
         grid-column: span 1;
         grid-row: span 1;
         text-align: left;
-        /* width: 50px;
-        height: auto; */
+        width: 300px;
+        height: auto;
         margin: 20px;
     }
     .item5 p {
