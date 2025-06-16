@@ -215,4 +215,48 @@ body {
     padding: 0;
     line-height: 12px;
 }
+.project6 {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: thin;
+    padding: 10px;
+    margin-left: 10px;
+}
+.project2 {
+    border-bottom-style: solid;
+    border-width: thin;
+    padding: 10px;
+    margin-left: 10px;
+}
+.project3 {
+    border-bottom-style: solid;
+    border-width: thin;
+    padding: 10px;
+    margin-left: 10px;
+}
+.project4 {
+    border-bottom-style: solid;
+    border-width: thin;
+    padding: 10px;
+    margin-left: 10px;
+}
+.project5 {
+    border-bottom-style: solid;
+    border-width: thin;
+    padding: 10px;
+    margin-left: 10px;
+}
+.project7 {
+    border-bottom-style: solid;
+    border-width: thin;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 40em;
+}
+.project1 {
+    border-bottom-style: solid;
+    border-width: thin;
+    padding: 10px;
+    margin-left: 10px;
+}
 }
