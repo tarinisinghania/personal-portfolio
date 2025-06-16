@@ -277,11 +277,11 @@ body {
     text-align: left;
     grid-column: span 1;
     grid-row: span 1;
-    width: 50%;
+    width: 300px;
     margin-left: 10px;
 }
 .item2 img {
-    width: 70%;
+    width: 100%;
     height: auto; /* Maintain aspect ratio */
 }
 .item5 {
