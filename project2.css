@@ -287,16 +287,16 @@ body {
     }
     .item2 {
         text-align: left;
-        margin-left: 10px;
+        margin-left: 50px;
     }
     .item3 {
-        margin-left: 10px;
+        margin-left: 50px;
     }
     .item3 img{
-        width: 50%;
+        width: 60%;
     }
     .item2 img {
-        width: 50%;
+        width: 60%;
     }
     .item5 {
         grid-column: span 1;
@@ -304,7 +304,7 @@ body {
         text-align: left;
         width: 300px;
         height: auto;
-        margin: 20px;
+        margin: 50px;
     }
     .item5 p {
         color: black;
