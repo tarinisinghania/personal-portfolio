@@ -655,7 +655,7 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 }
 .slide-b span{
-    background-color: none;
+    background-color: pink;
     color: black;
     padding-left: 50px;
     line-height: 30px;
