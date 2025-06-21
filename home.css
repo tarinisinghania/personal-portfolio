@@ -660,6 +660,11 @@ a{
     padding-left: 50px;
     line-height: 30px;
 }
+.slide-b span a{
+    background-color: pink;
+    color: black;
+}
+
 .link a{
     color: black;
     background-color: rgb(0, 255, 0);
