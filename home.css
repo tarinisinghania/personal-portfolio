@@ -644,8 +644,47 @@ a{
 }
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(30, 10px);
-    grid-template-rows: repeat(6, 10px);
+    grid-template-columns: repeat(30, 12px);
+    grid-template-rows: repeat(6, 12px);
     gap: 1px;
+}
+.slide-b p{
+    margin: 20px;
+    padding: 100px 10px 0px 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slide-b span{
+    padding-left: 50px;
+    line-height: 30px;
+}
+.link a{
+    color: black;
+    background-color: rgb(0, 255, 0);
+    text-decoration: underline;
+    padding: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.resume {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+/* .linkedin {
+    position: absolute;
+    bottom: 50px;
+    left: 300px;
+} */
+.email {
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+}
+.card-front {
+    font-size: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding-top: 0px;
 }
 }
