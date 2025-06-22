@@ -36,3 +36,12 @@ document.addEventListener('click', (e) => {
         console.log('Clicked outside — closed');
     }
 });
+
+
+  const ua = navigator.userAgent;
+
+  if (ua.includes("Safari") && !ua.includes("Chrome")) {
+    document.body.classList.add("safari");
+  } else if (ua.includes("Chrome")) {
+    document.body.classList.add("chrome");
+  }
