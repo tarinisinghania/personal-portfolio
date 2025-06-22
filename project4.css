@@ -164,19 +164,20 @@ body {
 
 .arrow > div {
     background-color: black;
-    height: 5px; /* Each line is 10px high with a 16px margin above and below */
-    margin: 3px 0;
-    border-radius: 5px;
+    height: 2px; /* Each line is 10px high with a 16px margin above and below */
+    width: 20px;
+    margin: 8px 0;
+    border-radius: 2px;
 }
 
 
-.arrow > div:nth-child(1) { 
+/* .arrow > div:nth-child(1) { 
     transform: rotate(45deg); 
 }
 
 .arrow > div:nth-child(2) {
-    transform: rotate(-45deg); /* Move up and rotate anticlockwise */
-}
+    transform: rotate(-45deg);
+} */
 .envolope {
     z-index: 1;
 }
