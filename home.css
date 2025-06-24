@@ -705,7 +705,14 @@ a{
     position: sticky;
     }
   }
-  .info {
+.info {
+    color: white;
+    position: fixed;
+    top: 10px;
+    text-align: center;
+    font-size: 10px;
+    font-family: monospace;
+    padding: 20px;
     display: none;
 }
 .scroll {
