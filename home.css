@@ -708,7 +708,7 @@ a{
 .scroll {
     color: white;
     position: fixed;
-    bottom: 10px;
+    top: 10px;
     z-index: 1;
     text-align: center;
     font-size: 15px;
