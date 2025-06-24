@@ -156,7 +156,7 @@ body {
     width: 90%;
     height: auto;
 }
-@media (max-width: 480px)  {
+@media (max-width: 650px)  {
 .active {
     width: 250px;
     background-color: rgb(255, 255, 255);
