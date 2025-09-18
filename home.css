@@ -62,7 +62,7 @@ body {
 .slidebar p {
     font-family: monospace;
     font-size: 14px;
-    line-height: 28px;
+    line-height: 25px;
     transition: 0.3s;
     white-space: nowrap;
     margin: 20px;
@@ -98,7 +98,7 @@ body {
     font-size: 12px;
     margin: 0;
     padding: 0;
-    line-height: 20px;
+    line-height: 18px;
 }
 .project6 {
     border-top-style: solid;
@@ -127,6 +127,11 @@ body {
     margin-left: 10px;
 }
 .project7 {
+    border-bottom-style: solid;
+    padding: 10px;
+    margin-left: 10px;
+}
+.casestudy{
     border-bottom-style: solid;
     padding: 10px;
     margin-left: 10px;
@@ -633,6 +638,11 @@ a{
 .project7 {
     border-bottom-style: solid;
     border-width: thin;
+    padding: 10px;
+    margin-left: 10px;
+}
+.casestudy{
+    border-bottom-style: solid;
     padding: 10px;
     margin-left: 10px;
     margin-bottom: 40em;
