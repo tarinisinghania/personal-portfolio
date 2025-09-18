@@ -113,7 +113,7 @@ body {
 }
 .item1 h1{
     text-align: left;
-    color: black;
+    color: rgb(62, 20, 35);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 3rem;
     line-height: 2;
@@ -124,24 +124,53 @@ body {
 }
 .item4 h1{
     text-align: left;
-    color: black;
+    color: rgb(173, 58, 98);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.5rem;
     line-height: 2;
     padding: 0;
     margin-left: 100px;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
-.item4 ol {
+  .key-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 5 equal columns */
+    gap: 20px;
+    padding: 30px;
+  }
+    .key-grid1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 5 equal columns */
+    gap: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    }
+  .key-grid div,
+  .key-grid1 div {
+    border: none;
+    text-align: center;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: rgb(179, 82, 116);
+  }
+  .key-grid img,
+  .key-grid1 img {
+    width: 10%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+/* .item4 ol {
     color: black;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.2rem;
     line-height: 1.3;
     padding: 0;
     margin-left: 100px;
-}
+} */
 
 .item2{
     text-align: left;
@@ -174,14 +203,13 @@ body {
     margin: 0;
 }
 .item2 h1 {
-    color: black;
+    color: rgb(133, 29, 65);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.5rem;
     line-height: 2;
     padding: 0;
     margin-bottom: 10px;
     text-transform: uppercase;
-
 }
 .item5 {
     grid-column: span 1;
@@ -200,7 +228,7 @@ body {
     margin: 0;
 }
 .item5 h1 {
-    color: black;
+    color: rgb(133, 29, 65);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.5rem;
     line-height: 2;
