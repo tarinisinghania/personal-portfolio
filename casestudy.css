@@ -329,6 +329,39 @@ body {
 .ia h1 {
     margin-bottom: 0;
 }
+.usertestings {
+    text-align: center;
+    margin-top: 0;
+}
+.usertestings img {
+    width: 70%;
+    margin-left: 40px;
+}
+.usertestings h1 {
+    margin-bottom: 0;
+}
+.keylearnings {
+    text-align: center;
+    margin-top: 0;
+}
+.keylearnings img {
+    width: 70%;
+    margin-left: 40px;
+}
+.keylearnings h1 {
+    margin-bottom: 0;
+}
+.feedback {
+    text-align: center;
+    margin-top: 0;
+}
+.feedback img {
+    width: 70%;
+    margin-left: 40px;
+}
+.feedback h1 {
+    margin-bottom: 0;
+}
 .arrow {
     display: block;
     width: 15px;
