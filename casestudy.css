@@ -329,6 +329,17 @@ body {
 .ia h1 {
     margin-bottom: 0;
 }
+.wireframes {
+    text-align: center;
+    margin-top: 0;
+}
+.wireframes img {
+    width: 70%;
+    margin-left: 40px;
+}
+.wireframes h1 {
+    margin-bottom: 0;
+}
 .usertestings {
     text-align: center;
     margin-top: 0;
