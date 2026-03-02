@@ -40,3 +40,28 @@ window.addEventListener("DOMContentLoaded", function () {
 });
 
 
+const slideshowImages = [
+    "archive/Banaras_Ghat.jpg",
+    "archive/Menstruation Cycles.jpg",
+    "archive/litho.jpeg",
+    "archive/webpost.png",
+    "archive/Singhania, Tarini_Manifesto.jpg",
+    "archive/fashion.png",
+    "archive/sky map.jpg",
+    "archive/Reflections of myself .jpg",
+    "archive/Junk owl .jpg"
+];
+
+let currentImageIndex = 0;
+const slideshow = document.getElementById("about-slideshow");
+
+function changeImage() {
+    currentImageIndex++;
+    if (currentImageIndex >= slideshowImages.length) {
+        currentImageIndex = 0;
+    }
+    slideshow.src = slideshowImages[currentImageIndex];
+}
+
+// Change image every 3 seconds
+setInterval(changeImage, 3000);
