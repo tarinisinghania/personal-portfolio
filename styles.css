@@ -10,6 +10,9 @@ body{
     color:#111;
     overflow-x:hidden;
 }
+  body {
+    cursor: url('favicon.png'), 32px 32px;
+  }
 
 body.transitioning{
     background:#ff1500;
@@ -60,7 +63,10 @@ nav{
     font-family: myfont;
     font-size: 16px;
 }
-.nav-left a:active{
+.nav-left a{
+    color:#83acff;
+}
+.nav-left a.active{
     color: black;
 }
 
