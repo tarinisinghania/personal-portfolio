@@ -44,12 +44,9 @@ const slideshowImages = [
     "archive/Banaras_Ghat.jpg",
     "archive/Menstruation Cycles.jpg",
     "archive/litho.jpeg",
-    "archive/webpost.png",
     "archive/Singhania, Tarini_Manifesto.jpg",
-    "archive/fashion.png",
     "archive/sky map.jpg",
     "archive/Reflections of myself .jpg",
-    "archive/Junk owl .jpg"
 ];
 
 let currentImageIndex = 0;
