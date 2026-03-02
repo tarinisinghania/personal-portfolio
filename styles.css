@@ -60,6 +60,9 @@ nav{
     font-family: myfont;
     font-size: 16px;
 }
+.nav-left a:active{
+    color: black;
+}
 
 .name-description{
     font-weight:400;
