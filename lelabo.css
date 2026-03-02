@@ -1,0 +1,268 @@
+@font-face {
+  font-family: myfont;
+  src: url(PPEiko-Medium.otf);
+}
+
+@font-face {
+  font-family: myfont1;
+  src: url(PPEiko-LightItalic.otf);
+}
+
+@font-face {
+  font-family: myfont2;
+  src: url(PPEiko-Thin.otf);
+}
+
+
+.nav-left{
+    /* display:flex;
+    justify-content:space-between;
+    align-items:flex-start; */
+    padding:40px 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* .nav-name{
+    text-decoration:none;
+    color:white;
+} */
+
+.name-bold{
+    font-family: myfont;
+    font-size:16px;
+}
+
+.nav-right{
+    display:flex;
+    gap:40px;
+    font-size:16px;
+    font-family: myfont;
+    padding:40px 80px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.nav-right a,
+.nav-left a {
+    text-decoration:none;
+    color:black;
+    cursor:pointer;
+}
+
+.nav-right a:hover,
+.nav-left a:hover {
+    opacity:0.6;
+    transition:0.2s ease;
+}
+
+
+/* PROJECT HERO */
+
+.project-hero{
+    display:flex;
+    justify-content:space-between;
+    padding:80px 120px;
+    min-height:70vh;
+}
+
+.hero-left{
+    flex:1;
+    display:flex;
+    align-items:center;
+}
+.hero-left h1{
+    font-family: myfont;
+    font-size: 45px;
+    background: -webkit-linear-gradient(#f7d9a4, #4578dd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    margin-left: 100px;
+}
+
+.project-logo{
+    max-width:500px;   /* control logo size */
+    width:100%;
+    height:auto;
+}
+
+.hero-right{
+    display: flex;
+    align-items: center;
+    width:600px;
+}
+
+.project-description{
+    font-size:18px;
+    line-height:1.7;
+    margin-bottom:30px;
+}
+
+.project-description span{
+    color:#999;
+    font-size:16px;
+}
+
+
+/* SHOWCASE SECTION */
+
+/* ========================= */
+/* PROJECT SHOWCASE SECTION  */
+/* ========================= */
+
+.project-showcase{
+    padding:0 120px 140px 120px;
+}
+
+.showcase-container{
+    display:flex;
+    flex-direction:column;
+    gap:100px;
+}
+
+
+/* ========================= */
+/* STRUCTURED GRID (1–12)    */
+/* ========================= */
+
+.structured-grid{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:40px;
+}
+
+.structured-grid img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:3px;
+}
+
+/* .structured-grid img:hover{
+    transform:scale(1.03);
+} */
+
+
+/* ========================= */
+/* EDITORIAL LAYOUT          */
+/* ========================= */
+
+.editorial-layout{
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+
+.row{
+    display:grid;
+    gap:20px;
+}
+
+.row img{
+    width:100%;
+    border-radius:3px;
+    object-fit:cover;
+}
+
+/* .row img:hover{
+    transform:scale(1.03);
+} */
+
+
+/* Layout Variations */
+
+.row.three{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto;
+    gap:40px;
+}
+
+/* Big left image */
+.row.three img:first-child{
+    grid-row: 1 / span 2;   /* spans both rows */
+    height:auto;
+    width: 90%;
+    object-fit:cover;
+}
+
+/* Right stacked images */
+.row.three img:nth-child(2),
+.row.three img:nth-child(3){
+    height:auto;
+    width: 85%;
+    object-fit:cover;
+}
+
+.row.two{
+    grid-template-columns: repeat(2, 1fr);
+    align-items: stretch;
+}
+
+.row.two img{
+    height: auto;   /* You can adjust this */
+    width: 100%;
+    object-fit: contain;
+}
+
+.row.two video{
+    height: auto;   /* You can adjust this */
+    width: 110%;
+    object-fit: contain;
+}
+
+.row.single{
+    grid-template-columns: 1fr;
+    max-width:900px;
+    margin:0 auto;
+}
+
+
+/* ========================= */
+/* RESPONSIVE                */
+/* ========================= */
+
+@media (max-width: 1200px){
+
+    .project-showcase{
+        padding:0 60px 120px 60px;
+    }
+
+    .showcase-container{
+        padding:50px;
+    }
+
+    .structured-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .row.three{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .project-showcase{
+        padding:0 30px 100px 30px;
+    }
+
+    .showcase-container{
+        padding:40px;
+        gap:70px;
+    }
+
+    .structured-grid,
+    .row.three,
+    .row.two{
+        grid-template-columns: 1fr;
+    }
+
+    .row.single{
+        max-width:100%;
+    }
+
+}
