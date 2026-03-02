@@ -86,7 +86,7 @@ nav{
 
 .nav-right a{
     position:relative;
-    color: black;
+    color:#83acff;
     z-index:2;
 }
 
@@ -114,7 +114,6 @@ nav{
 }
 .about-text span {
     font-family: myfont;
-    color:#83acff;
 }
 
 .about-text p{
