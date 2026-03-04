@@ -219,6 +219,59 @@
     margin:0 auto;
 }
 
+/* --- Related Projects Section --- */
+
+.related-projects {
+    margin-top: 20px;
+    padding: 80px 40px;
+    border-top: 1px solid #eee;
+}
+
+.related-projects h3 {
+    font-family: myfont;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: #111;
+}
+
+/* Grid Layout Instead of Flex */
+.related-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+/* Each Project */
+.related-item {
+    text-decoration: none;
+    color: black;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+/* Image Styling */
+.related-item img {
+    width: 100%;
+    height: 320px; /* Bigger + more impactful */
+    object-fit: cover;
+    border-radius: 3px;
+    transition: transform 0.5s ease;
+}
+
+/* Hover Effect */
+.related-item:hover img {
+    transform: scale(1.03);
+}
+
+/* Title */
+.related-item p {
+    margin-top: 16px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #111;
+}
 
 /* ========================= */
 /* RESPONSIVE                */

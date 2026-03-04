@@ -40,25 +40,66 @@ window.addEventListener("DOMContentLoaded", function () {
 });
 
 
-const slideshowImages = [
-    "archive/Banaras_Ghat.jpg",
-    "archive/Menstruation Cycles.jpg",
-    "archive/litho.jpeg",
-    "archive/Singhania, Tarini_Manifesto.jpg",
-    "archive/sky map.jpg",
-    "archive/Reflections of myself .jpg",
+// ---------------------------
+// 1️⃣ List of all projects
+// ---------------------------
+const allProjects = [
+    { title: "UI/UX App Design", link: "tipsi.html", img: "images/tipsi_mockup2.png" },
+    { title: "Fare Magazine", link: "fare.html", img: "images/fare.png" },
+    { title: "Bloomberg Article", link: "editorial.html", img: "images/editorial.png" },
+    { title: "Go Touch Some Grass", link: "gtsg.html", img: "images/artifact.png" },
+    { title: "Mantra Merch", link: "mantra.html", img: "images/mock-up2.jpg" },
+    { title: "Le Labo", link: "lelabo.html", img: "images/packaging.png" },
+    { title: "Growing Relationships", link: "cookie.html", img: "images/cookie.png" },
 ];
 
-let currentImageIndex = 0;
-const slideshow = document.getElementById("about-slideshow");
+// ---------------------------
+// 2️⃣ List of project page filenames
+// ---------------------------
+const projectPages = allProjects.map(p => p.link);
 
-function changeImage() {
-    currentImageIndex++;
-    if (currentImageIndex >= slideshowImages.length) {
-        currentImageIndex = 0;
-    }
-    slideshow.src = slideshowImages[currentImageIndex];
+// ---------------------------
+// 3️⃣ Helper to get file name from path
+// ---------------------------
+function getFileName(path) {
+    return path.substring(path.lastIndexOf("/") + 1);
 }
 
-// Change image every 3 seconds
-setInterval(changeImage, 1000);
+// ---------------------------
+// 4️⃣ Show random related projects
+// ---------------------------
+function showRandomRelated() {
+    const currentFile = getFileName(window.location.pathname);
+
+    // Only run on project pages
+    if (!projectPages.includes(currentFile)) return;
+
+    // Exclude current page from random selection
+    const others = allProjects.filter(p => p.link !== currentFile);
+
+    if (others.length === 0) return;
+
+    // Shuffle and pick 3
+    const randomThree = others.sort(() => 0.5 - Math.random()).slice(0, 3);
+
+    // Create container
+    const container = document.createElement('section');
+    container.className = 'related-projects';
+    container.innerHTML = `<h3>Other Projects</h3><div class="related-grid"></div>`;
+    const grid = container.querySelector('.related-grid');
+
+    randomThree.forEach(proj => {
+        const item = document.createElement('a');
+        item.className = 'related-item';
+        item.href = proj.link;
+        item.innerHTML = `<img src="${proj.img}" alt="${proj.title}"><p>${proj.title}</p>`;
+        grid.appendChild(item);
+    });
+
+    document.body.appendChild(container);
+}
+
+// ---------------------------
+// 5️⃣ Run on page load
+// ---------------------------
+window.addEventListener('DOMContentLoaded', showRandomRelated);

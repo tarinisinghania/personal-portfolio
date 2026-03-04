@@ -48,7 +48,7 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items:flex-start;
-    padding:40px 80px;
+    padding:40px 40px;
 }
 
 .nav-name{
@@ -104,7 +104,7 @@ nav{
 /* PAGE SECTIONS */
 .page{
     display:none;
-    padding:40px 80px 120px 80px;
+    padding:40px 40px 120px 40px;
 }
 
 .page.active{
