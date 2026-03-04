@@ -304,65 +304,96 @@ nav{
     letter-spacing: 0.5px;
 }
 
-/* Responsive */
-@media(max-width:1000px){
-    .play-grid{
-        column-count:2;
+
+
+/* NAVIGATION */
+@media (max-width: 800px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .nav-right {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .nav-name {
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    .name-bold {
+        font-size: 14px;
+    }
+
+    .nav-right a {
+        font-size: 14px;
     }
 }
+@media (max-width: 800px) {
+    .page.active {
+        flex-direction: column;
+        gap: 40px;
+        padding: 15px;
+    }
 
-@media(max-width:600px){
-    .play-grid{
-        column-count:1;
+    .about-text {
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        display: none;
+    }
+
+    .about-links a {
+        font-size: 14px;
+        display: inline-block;
+        margin-bottom: 10px;
     }
 }
-
-
-@media(max-width:1100px){
-    .work-list{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media(max-width:700px){
-    .work-list{
+/* Work page columns */
+@media (max-width: 1000px) {
+    .work-list {
         grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .work-row {
+        flex-direction: column;
+    }
+
+    .work-image img {
+        height: 300px; /* smaller on mobile */
+    }
+
+    .work-text h3 {
+        font-size: 14px;
+    }
+
+    .work-text p {
+        font-size: 12px;
+    }
+
+    .work-tags {
+        font-size: 12px;
     }
 }
-
-
-
-/* RESPONSIVE */
-@media(max-width:1000px){
-    .work-row{
-        grid-template-columns:1fr;
-        gap:40px;
+@media (max-width: 800px) {
+    .play-grid {
+        column-count: 1;
+        column-gap: 10px;
     }
 
-    .work-text p{
-        max-width:none;
-    }
-}
-
-
-
-/* BOTTOM GLOW */
-/* .bottom-glow{
-    position:fixed;
-    bottom:0;
-    left:0;
-    width:100%;
-    height:120px;
-    background:linear-gradient(to top, #ff351e, transparent);
-} */
-
-/* RESPONSIVE */
-@media(max-width:1000px){
-    .page.active{
-        flex-direction:column;
-    }
-
-    .about-image img{
-        width:100%;
+    .play-item img,
+    .play-item video {
+        width: 100%;
+        height: auto;
     }
 }
