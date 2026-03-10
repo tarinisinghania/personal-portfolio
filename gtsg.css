@@ -106,6 +106,15 @@
     margin-bottom:30px;
 }
 
+.project-description a {
+    text-decoration: none;
+    color:#83acff;
+    border: 1px solid #83acff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
 .project-description span{
     color:#999;
     font-size:16px;
