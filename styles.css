@@ -253,6 +253,14 @@ nav{
 .play-grid img:nth-child(5n){
     transform: rotate(-1deg);
 }
+/* VIDEO GRID (top section) */
+
+.play-videos{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+    margin-bottom:40px;
+}
 
 .play-grid{
     column-count: 3;
