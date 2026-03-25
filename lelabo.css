@@ -162,7 +162,7 @@
 .editorial-layout{
     display:flex;
     flex-direction:column;
-    gap:40px;
+    gap:20px;
 }
 
 .row{
@@ -224,7 +224,7 @@
 
 .row.two video{
     height: auto;   /* You can adjust this */
-    width: 110%;
+    width: 100%;
     object-fit: contain;
 }
 
