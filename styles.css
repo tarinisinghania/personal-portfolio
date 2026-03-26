@@ -54,7 +54,7 @@ nav{
 .nav-name{
     font-size:15px;
     line-height:1.4;
-    max-width:400px;
+    max-width:550px;
     cursor:pointer;
 }
 
@@ -78,7 +78,7 @@ nav{
 
 .nav-right{
     display:flex;
-    gap:40px;
+    gap:200px;
     font-size:16px;
     font-family: myfont;
 }
@@ -404,5 +404,10 @@ nav{
     .play-item video {
         width: 100%;
         height: auto;
+    }
+}
+@media (max-width: 1000px) {
+    .work-row:first-child {
+        order: 10;
     }
 }
