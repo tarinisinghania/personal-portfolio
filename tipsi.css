@@ -667,7 +667,8 @@ body {
         width:100%;
     }
 
-    .item5 {
+    .item5 h1,
+    .item5 p{
         color: #111;
     }
 
