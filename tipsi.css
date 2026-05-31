@@ -667,6 +667,10 @@ body {
         width:100%;
     }
 
+    .item5 {
+        color: #111;
+    }
+
     /* Hero images */
     .image{
         grid-template-columns:1fr;
